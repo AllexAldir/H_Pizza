@@ -1,0 +1,169 @@
+@charset "UTF-8";   
+
+@font-face {
+    font-family: font_titulos;
+    src: url(Fonte/panpizza.ttf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+
+}
+
+:root{
+    --h1: "font_titulos";
+    --cor01: #cf2b36;
+    --cor02: #009247;
+    
+}
+
+header{
+    height: 200px;
+    padding: 40px 0px 0px 0px;
+
+    background-image: url(images/Bandeira_italia_full.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header > h1{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    font-family: var(--h1);
+    font-size: 3em;
+}
+
+audio{
+    position: absolute;
+    left: 77%;
+    top: 19.5%;
+    width: 100px;
+}
+
+nav{
+    background-color: rgba(128, 128, 128, 0.021);
+    margin: 77px 0px 0px 0px;
+    height: 50px;
+}
+
+nav > a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 21px 10px 10px 8px;
+}
+
+nav > a:hover{
+    background-color: var(--cor02);
+    border-radius: 10px 10px 0px 0px;
+}
+
+main{
+    margin: auto;
+    max-width: 1100px;
+    min-width: 320px;
+    padding: 0px 10px 0px 10px;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: var(--h1);
+    margin: 20px 0px 20px 0px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+    text-indent: 8px;
+    line-height: 1.5em;
+
+}
+
+section{
+    margin: 0px 0px 10px 0px;
+}
+
+#ma.ma{
+    background-image: url(images/margerita_full.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat;
+    /* background-position: center center; */ 
+
+    margin: 10px 0px 10px 0px;
+    height: 600px;
+    box-shadow: 0px 1px 6px black;
+    padding: 10px;
+}
+
+#ma.ma > p{
+    background-color: rgba(0, 0, 0, 0.391);
+    color: white;
+    font-weight: bolder;
+
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+}
+
+#complemento{
+    background-color: var(--cor02);
+
+    width: 600px;
+    height: 500px;
+    margin: auto;
+
+    border-radius: 12px 12px 0px 0px;
+    
+}
+
+#complemento > h1{
+    background-color: rgb(255, 0, 0);
+
+    text-align: center;
+    margin: 0px 0px 12px 0px;
+    padding: 4px 0px 0px 0px;
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+.pequeno_p{
+    font-size: 1em;
+    text-align: center;
+    color: white;
+}
+
+.ma{
+    background-image: url(images/pizzaria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    margin: 20px 0px 20px 0px;
+    height: 600px;
+    box-shadow: 0px 1px 6px black;
+    padding: 10px;
+}
+
+.ma > p{
+    /* background-color: white; */
+    color: white;
+    font-weight: bolder;
+}
+
+.ma > p > a{
+    text-decoration: none;
+    color: var(--cor02);
+
+}
+
+.ma > p > a:hover{
+    text-decoration: underline;
+}

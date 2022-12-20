@@ -108,15 +108,15 @@ section{
     color: white;
     font-weight: bolder;
 
-    width: 500px;
-    height: 400px;
+    max-width: 400px;
+    height: 550px;
     padding: 10px;
 }
 
 #complemento{
     background-color: var(--cor02);
 
-    width: 600px;
+    width: 50vw;
     height: 500px;
     margin: auto;
 
